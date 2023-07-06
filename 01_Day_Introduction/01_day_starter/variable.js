@@ -18,3 +18,15 @@ const PI = 3.14              // geometrical constant
 let name = 'Asabeneh',     //name of a person
   job = 'teacher',
   live = 'Finland'
+
+ 
+
+//global scope
+var x=20;
+function example(){
+  var y=30;
+console.log(x)
+console.log(y)
+}
+console.log(x)
+console.log(y)
